@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     val str = readln()
     val words = if (str.isNotEmpty()) str.split(" ") else listOf()
     val correctWords: MutableList<String> = mutableListOf()
